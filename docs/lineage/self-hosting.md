@@ -142,6 +142,9 @@ Not Allmaps work, but it falls out of it (georef#1):
 
 ### Step 1: `docker compose up`
 
+In progress on [`lineage/docker-compose`](https://github.com/line-age/allmaps/tree/lineage/docker-compose)
+(`Dockerfile`, `compose.yaml`, `docker/README.md`).
+
 Upstream has no Dockerfiles or compose file (only `tools/data-export/Dockerfile`, unrelated,
 and Railway's own build for Live). Start with a compose file of production-shaped images, in
 this fork, building from source. It maps nearly one to one onto the Helm charts in
