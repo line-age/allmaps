@@ -140,4 +140,34 @@ Not Allmaps work, but it falls out of it (georef#1):
 
 ## Sequencing
 
-TBD.
+### Step 1: `docker compose up`
+
+Upstream has no Dockerfiles or compose file (only `tools/data-export/Dockerfile`, unrelated,
+and Railway's own build for Live). Start with a compose file of production-shaped images, in
+this fork, building from source. It maps nearly one to one onto the Helm charts in
+`line-age/deploy`, and its `environment:` blocks become `values.yaml`.
+
+| Compose service | Image | Helm equivalent |
+| --- | --- | --- |
+| `postgres` | `postgis/postgis` | external; connection settings from values |
+| `migrate` | APIs image, `drizzle-kit migrate`, one-shot | pre-install/upgrade hook Job |
+| `live` | APIs image | Deployment, 1 replica |
+| `rest`, `annotations` | APIs image | Deployments |
+| `editor`, `viewer` | apps image (`adapter-node`) | Deployments |
+| `tileserver`, `preview` | workerd image | Deployments |
+| `tilecache` | nginx | sidecar or Deployment |
+| `iiif` | stand-in until georef#1 exists (`tools/iiif-server` or Cantaloupe) | georef#1's chart |
+| `gateway` | Caddy or nginx: editor and APIs on one site, websocket upgrade | Ingress |
+
+Getting it to start forces the work that doesn't depend on #672: the Node entrypoint for
+REST and Annotations (workstream 2), database bootstrap (1), `adapter-node` for the editor
+and viewer (5), and workerd for the Tile Server and Preview (6).
+
+Done when, on a clean machine, `docker compose up` gives an editor that opens a fixture
+sheet, saves over the websocket, serves the annotation at its permalink, and returns a
+warped XYZ tile, with no request leaving the compose network except basemap tiles.
+
+### Step 2 onwards
+
+TBD: auth and attribution (3, 4) once #672 item 4 has an answer, or as self-contained
+modules if it doesn't come soon.
