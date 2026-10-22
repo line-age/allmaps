@@ -1,0 +1,21 @@
+packages/db/src/auth.ts
+  s_6015974f6f542a::t_10ec20ec221de9 19-24,49-50,52,81
+packages/env/src/fragments/auth.ts
+  s_6015974f6f542a::t_134098909bf2df 8-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "bc1dc769602e4f7496150522a2874ac7f9f06c4f",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
