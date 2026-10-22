@@ -142,8 +142,25 @@ Not Allmaps work, but it falls out of it (georef#1):
 
 ### Step 1: `docker compose up`
 
-In progress on [`lineage/docker-compose`](https://github.com/line-age/allmaps/tree/lineage/docker-compose)
-(`Dockerfile`, `compose.yaml`, `docker/README.md`).
+Done on [`lineage/docker-compose`](https://github.com/line-age/allmaps/tree/lineage/docker-compose)
+(`Dockerfile`, `compose.yaml`, `docker/README.md`), tested 2026-10-22:
+
+- A sheet georeferenced in the self-hosted editor saves through Live to Postgres, with live
+  sync between two browser windows.
+- The annotation is served at its Annotations API permalink and opens in the self-hosted
+  Viewer.
+- The warped sheet loads in QGIS as an XYZ layer from our Tile Server (on workerd).
+- Preview renders the warped sheet.
+- GitHub login works through the console, and is off when no OAuth app is configured.
+
+Found along the way:
+
+- The editor's default basemap (Protomaps) returns 403 off allmaps.org; pick OpenStreetMap in
+  the editor settings. Fix in workstream 5.
+- Upstream's IIIF fixture annotations point at `https://localhost:5506`, so they don't warp;
+  real annotations do.
+- better-auth can't see client IPs for rate limiting until a proxy forwards them.
+- Node images are 320-450 MB, workerd images about 250 MB (the binary is 139 MB).
 
 Upstream has no Dockerfiles or compose file (only `tools/data-export/Dockerfile`, unrelated,
 and Railway's own build for Live). Start with a compose file of production-shaped images, in
