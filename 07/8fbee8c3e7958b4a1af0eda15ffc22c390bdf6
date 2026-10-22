@@ -1,0 +1,21 @@
+docs/lineage/self-hosting.md
+  s_6015974f6f542a::t_0157b0c8292d99 134-136
+  s_6015974f6f542a::t_81aab8a1a36faa 1-68,74-133,137-141
+  s_6015974f6f542a::t_227382aac8c623 69-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "078fbee8c3e7958b4a1af0eda15ffc22c390bdf6",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
