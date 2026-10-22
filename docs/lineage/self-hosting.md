@@ -67,10 +67,9 @@ Upstream answers to #672 decide the "where".
 - `packages/db/src/auth.ts` hardcodes the `allmaps.org` cookie domain and `trustedOrigins`
   (#672 item 2).
 - Login is GitHub, which upstream already supports. Editing is limited to members of a
-  configurable list of GitHub team ids: request the `read:org` scope and check membership at
+  configurable list of GitHub team ids (#672 item 3): request the `read:org` scope and check membership at
   login (and on each session refresh, so removal from a team takes effect).
-- OIDC (#672 item 3) is low priority now. It comes back if hosting moves somewhere with its
-  own SSO.
+- OIDC is out of scope for now. It comes back if hosting moves somewhere with its own SSO.
 - Live has no authentication: websocket, `POST /maps` and `PATCH /maps` accept anyone.
 - REST `PUT /images/:id` and `PUT /manifests/:id` have no auth either. The editor calls them.
 - The editor has no login UI and saves anonymously.
