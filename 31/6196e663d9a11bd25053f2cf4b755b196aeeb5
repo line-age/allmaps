@@ -1,0 +1,42 @@
+docker/caddy/Caddyfile
+  s_6015974f6f542a::t_a5d8385ac81f89 1-38
+docker/workerd-config.sh
+  s_6015974f6f542a::t_dad4a3c4a0ed58 30-33
+  s_6015974f6f542a::t_b2f385f6c61b40 1-17,19-29,34-53
+  s_6015974f6f542a::t_45478db24f1551 18
+Dockerfile
+  s_6015974f6f542a::t_7c0ebe88c9737b 64-66
+  s_6015974f6f542a::t_b0824c39920d3e 1-60
+  s_6015974f6f542a::t_ad8293bc59c06b 61-63
+docker/caddy/proxy.global
+  s_6015974f6f542a::t_84fbf7f112e378 1-3
+compose.yaml
+  s_6015974f6f542a::t_9a9948f56291eb 1-107,109,112,117,122
+  s_6015974f6f542a::t_0202f8ea8a0941 108,110-111,113-116,118-121,123-147
+docker/README.md
+  s_6015974f6f542a::t_6d8633fc24bd35 42-44
+  s_6015974f6f542a::t_26891221755833 1-41
+  s_6015974f6f542a::t_e8a7af6a71532d 45-203
+.dockerignore
+  s_6015974f6f542a::t_52f0b967c9ba40 8-12
+docker/caddy/certs/.gitignore
+  s_6015974f6f542a::t_788f625eb84c03 1-2
+compose.override.yaml
+  s_6015974f6f542a::t_85b41e68431bab 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "316196e663d9a11bd25053f2cf4b755b196aeeb5",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
