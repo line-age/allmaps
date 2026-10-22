@@ -153,6 +153,16 @@ Done on [`lineage/docker-compose`](https://github.com/line-age/allmaps/tree/line
 - Preview renders the warped sheet.
 - GitHub login works through the console, and is off when no OAuth app is configured.
 
+Since then (2026-10-22), the branch also has:
+
+- A development mode: `docker compose up` runs every service from the mounted source with hot
+  reload; `docker compose -f compose.yaml up` is the self-contained deployment.
+- A Caddy proxy: every service at `<service>.$DOMAIN`, `http://<service>.allmaps.localhost:5490`
+  locally, no more per-service ports. TLS is `off`, `auto` (Let's Encrypt), `files` (own
+  certificate) or `proxy` (terminated in front; `TRUSTED_PROXIES` required).
+- Configurable auth cookie domain and trusted origins (#672 item 2).
+- No IIIF server; that stays in georef#1, where the server options are noted.
+
 Found along the way:
 
 - The editor's default basemap (Protomaps) returns 403 off allmaps.org; pick OpenStreetMap in
