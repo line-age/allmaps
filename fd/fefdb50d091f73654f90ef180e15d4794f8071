@@ -12,6 +12,9 @@ apps/viewer/src/lib/components/map/Map.svelte
   s_6015974f6f542a::t_d943292e2678d9 6-14,771-776,780
 packages/basemap/src/index.ts
   s_6015974f6f542a::t_49467c799b3ad4 125-220
+  s_6015974f6f542a::t_c0261b7e2d7c18 180-181
+  s_6015974f6f542a::t_303a652b98925d 138-139
+  s_6015974f6f542a::t_6ec8bc7e4f9e6d 205
 packages/env/src/fragments/app.ts
   s_6015974f6f542a::t_a808ad44e4ca7f 11-13
 ---
