@@ -1,0 +1,33 @@
+apps/editor/src/lib/components/popovers/MapSettings.svelte
+  s_6015974f6f542a::t_fe75b6d75d09d8 14
+apps/editor/src/lib/shared/maplibre.ts
+  s_6015974f6f542a::t_48fda5860c426b 1,58-59
+apps/editor/src/lib/shared/params.ts
+  s_6015974f6f542a::t_d4f90d30635f1c 87
+apps/editor/src/lib/state/ui.svelte.ts
+  s_6015974f6f542a::t_9f6361f130c992 5-8,75,128-129,134,227-228,364-371
+apps/editor/src/lib/types/shared.ts
+  s_6015974f6f542a::t_c09633887ac99e 111-117
+apps/viewer/src/lib/components/map/Map.svelte
+  s_6015974f6f542a::t_edc907b7ead5e5 6-14,771-776,780
+packages/basemap/src/index.ts
+  s_6015974f6f542a::t_9d2b9e00a04d12 125-216
+packages/env/src/fragments/app.ts
+  s_6015974f6f542a::t_26d727d4d75aeb 11-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "119dce8537e30e23d33e8b503a17ee8993fa6c48",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
