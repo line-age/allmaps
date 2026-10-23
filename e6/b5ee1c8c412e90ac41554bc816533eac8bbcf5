@@ -1,0 +1,23 @@
+Dockerfile
+  s_6015974f6f542a::t_8acb8c01a3c0ca 63-82
+compose.yaml
+  s_6015974f6f542a::t_9bd0869ef46786 76,147-153,156
+docker/caddy/Caddyfile
+  s_6015974f6f542a::t_b13a576ee624ea 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "e6b5ee1c8c412e90ac41554bc816533eac8bbcf5",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
