@@ -1,7 +1,12 @@
 packages/db/package.json
   s_6015974f6f542a::t_f698b57ee6e531 16-17
+  s_6015974f6f542a::t_424f5440d05f37 16-17
 packages/db/src/migrate.ts
   s_6015974f6f542a::t_901ed32866cb2a 1-39
+  s_6015974f6f542a::t_001fe82e991860 5
+  s_6015974f6f542a::t_d8cbc5c43d708a 2-4
+  s_6015974f6f542a::t_d84198d985cb09 6-8
+  s_6015974f6f542a::t_0c7804d9cb3749 1,9-39
 ---
 {
   "schema_version": "authorship/3.0.0",
