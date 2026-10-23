@@ -1,0 +1,32 @@
+.dockerignore
+  s_6015974f6f542a::t_e094f279701b8e 8-12
+Dockerfile
+  s_6015974f6f542a::t_1844fb738996c0 1-65
+compose.yaml
+  s_6015974f6f542a::t_08785291569740 1-156
+  s_6015974f6f542a::t_19d026d7cbbec2 118-119,123-125,133,140-142
+docker/caddy/Caddyfile
+  s_6015974f6f542a::t_3e526ff36febb0 1-38
+docker/caddy/certs/.gitignore
+  s_6015974f6f542a::t_7bd17317efff88 1-2
+docker/caddy/proxy.global
+  s_6015974f6f542a::t_259029b3d5d416 1-3
+docker/workerd-config.sh
+  s_6015974f6f542a::t_dfc7633043afd6 1-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "6ff9955a7d401f5b5dbc1ffdec8e2e8eb359701b",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

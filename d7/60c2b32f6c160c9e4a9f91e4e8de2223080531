@@ -1,0 +1,26 @@
+packages/db/package.json
+  s_6015974f6f542a::t_f698b57ee6e531 16-17
+  s_6015974f6f542a::t_424f5440d05f37 16-17
+packages/db/src/migrate.ts
+  s_6015974f6f542a::t_901ed32866cb2a 1-39
+  s_6015974f6f542a::t_001fe82e991860 5
+  s_6015974f6f542a::t_d8cbc5c43d708a 2-4
+  s_6015974f6f542a::t_d84198d985cb09 6-8
+  s_6015974f6f542a::t_0c7804d9cb3749 1,9-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "d760c2b32f6c160c9e4a9f91e4e8de2223080531",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

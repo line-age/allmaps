@@ -1,0 +1,33 @@
+apps/viewer/package.json
+  s_6015974f6f542a::t_e28873725eb3e0 56
+apps/viewer/svelte.config.js
+  s_6015974f6f542a::t_e28873725eb3e0 1-2,14
+apps/console/package.json
+  s_6015974f6f542a::t_e28873725eb3e0 23
+apps/console/svelte.config.js
+  s_6015974f6f542a::t_e28873725eb3e0 1-2,9
+turbo.json
+  s_6015974f6f542a::t_e28873725eb3e0 13-14
+apps/editor/svelte.config.js
+  s_6015974f6f542a::t_e28873725eb3e0 1-2,11
+apps/editor/package.json
+  s_6015974f6f542a::t_e28873725eb3e0 70
+pnpm-lock.yaml
+  s_6015974f6f542a::t_36c69073ff1cab 511,690,824,840-843,900,1009-1012,1081,1239,1305,1672-1675,1744,3667,3751,14590,14595,15707,15727-15729,15733,15738,15758,15762,21463
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "4ce55e9129840e56a7c4bbeedd08ad8d0aab8d86",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

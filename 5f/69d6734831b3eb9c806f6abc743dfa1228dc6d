@@ -1,0 +1,26 @@
+packages/db/drizzle/20260326133904_seed-organizations/migration.sql
+  s_6015974f6f542a::t_7113aefb4233f4 1-4
+packages/db/drizzle/20260413075226_seed-organization_urls/migration.sql
+  s_6015974f6f542a::t_e3e3889213a4ef 1-4
+packages/db/seed/allmaps-organizations.sql
+  s_6015974f6f542a::t_b6d6b3af5a4a0a 1-174
+  s_6015974f6f542a::t_e4fda904a5c44a 4-7,11-13,121-123,126-174
+packages/db/src/migrations.ts
+  s_6015974f6f542a::t_1717729d125c13 47-55,89-90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "5f69d6734831b3eb9c806f6abc743dfa1228dc6d",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

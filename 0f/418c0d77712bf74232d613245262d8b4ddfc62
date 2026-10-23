@@ -1,0 +1,32 @@
+apis/annotations/src/node.ts
+  s_6015974f6f542a::t_0e966eb1cc266a 1-6
+  s_6015974f6f542a::t_9c24d94ef3709d 1-6
+apis/rest/src/node.ts
+  s_6015974f6f542a::t_d16096e7a3e1ec 1-6
+  s_6015974f6f542a::t_9c24d94ef3709d 1-6
+packages/api-shared/package.json
+  s_6015974f6f542a::t_3bc6697a511e43 21-22,56
+  s_6015974f6f542a::t_9c24d94ef3709d 21-22,56
+packages/api-shared/src/node.ts
+  s_6015974f6f542a::t_b6872ac700c4a9 1-37
+  s_6015974f6f542a::t_9c24d94ef3709d 1-37
+pnpm-lock.yaml
+  s_6015974f6f542a::t_2b70af5df67c25 511,690,824,840,897,1006,1075,1233,1299,1666,1735,1849-1851,3658,3742,14581,14586,15698,15718,15722,15727,15747-15749,15753,21454,21465
+  s_6015974f6f542a::t_b81a47fb1d9667 511,690,824,840,897,1006,1075,1233,1299,1666,1735,1849-1851,3658,3742,14581,14586,15698,15718,15722,15727,15747-15749,15753,21454,21465
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "0f418c0d77712bf74232d613245262d8b4ddfc62",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
