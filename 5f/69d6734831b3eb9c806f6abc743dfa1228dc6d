@@ -4,6 +4,7 @@ packages/db/drizzle/20260413075226_seed-organization_urls/migration.sql
   s_6015974f6f542a::t_e3e3889213a4ef 1-4
 packages/db/seed/allmaps-organizations.sql
   s_6015974f6f542a::t_b6d6b3af5a4a0a 1-174
+  s_6015974f6f542a::t_e4fda904a5c44a 4-7,11-13,121-123,126-174
 packages/db/src/migrations.ts
   s_6015974f6f542a::t_1717729d125c13 47-55,89-90
 ---
