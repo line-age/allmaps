@@ -6,6 +6,14 @@ apps/viewer/src/lib/components/input/Examples.svelte
   s_6015974f6f542a::t_aa22cc44ba02a9 13-14,17-67,70-85,87-106
 apps/viewer/src/routes/(app)/+page.svelte
   s_6015974f6f542a::t_34004ba5b3cfa3 207-211
+test/apis/test/seed.test.ts
+  s_6015974f6f542a::t_c02a2224629052 67-69,84,89,113,151,155-162,172
+tools/seed/src/postgres.ts
+  s_6015974f6f542a::t_9b86ed7f2a0963 1-39
+tools/seed/src/seed-fixtures.ts
+  s_6015974f6f542a::t_4cc7b4838582eb 27-34,41,49,55,98-109,112
+tools/seed/src/seed.ts
+  s_6015974f6f542a::t_f4ace785d55df1 5,17-24,26,53,185,220-221,223,252
 ---
 {
   "schema_version": "authorship/3.0.0",
