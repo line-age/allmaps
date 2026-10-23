@@ -1,9 +1,12 @@
 Dockerfile
   s_6015974f6f542a::t_049f263313c2f3 63-82
+  s_6015974f6f542a::t_8acb8c01a3c0ca 63-82
 compose.yaml
   s_6015974f6f542a::t_8c8d21f07413e8 76,156-162,165
+  s_6015974f6f542a::t_9bd0869ef46786 76,156-162,165
 docker/caddy/Caddyfile
   s_6015974f6f542a::t_494bf7f77c849b 39
+  s_6015974f6f542a::t_b13a576ee624ea 39
 ---
 {
   "schema_version": "authorship/3.0.0",
