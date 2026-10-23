@@ -1,9 +1,12 @@
 workers/preview/src/shared/cache.ts
   s_6015974f6f542a::t_a8fc50d8b42752 33-37,39
+  s_6015974f6f542a::t_167f74fec90061 33-37,39
 workers/tileserver/src/lib/cache.ts
   s_6015974f6f542a::t_48dc838deabed0 39-43,45-49
+  s_6015974f6f542a::t_b9122557a1c13f 39-43,45-49
 workers/tileserver/test/error-tile.test.ts
   s_6015974f6f542a::t_3387fe4b131683 108,113,119,122
+  s_6015974f6f542a::t_e0bc0a82abba06 108,113,119,122
 ---
 {
   "schema_version": "authorship/3.0.0",
