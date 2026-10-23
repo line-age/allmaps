@@ -13,7 +13,8 @@
     "./migrations": "./dist/migrations.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "drizzle"
   ],
   "scripts": {
     "watch": "tsc --watch --noCheck",

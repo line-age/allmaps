@@ -18,7 +18,8 @@
     "./shared": "./dist/shared.js",
     "./tiers": "./dist/shared/tiers.js",
     "./types": "./dist/types.js",
-    "./projections": "./dist/projections.js"
+    "./projections": "./dist/projections.js",
+    "./node": "./dist/node.js"
   },
   "files": [
     "dist"
@@ -52,6 +53,7 @@
     "@allmaps/id": "workspace:^",
     "@allmaps/iiif-parser": "workspace:^",
     "@allmaps/stdlib": "workspace:^",
+    "@elysia/node": "catalog:",
     "@sinclair/typebox": "catalog:",
     "comlink": "catalog:",
     "drizzle-orm": "catalog:",
