@@ -1,0 +1,29 @@
+Dockerfile
+  s_6015974f6f542a::t_b0824c39920d3e 1-60
+docker/workerd-config.sh
+  s_6015974f6f542a::t_45478db24f1551 18
+  s_6015974f6f542a::t_dad4a3c4a0ed58 30-33
+  s_6015974f6f542a::t_b2f385f6c61b40 1-17,19-29,34-53
+docker/README.md
+  s_6015974f6f542a::t_26891221755833 1-41
+compose.yaml
+  s_6015974f6f542a::t_9a9948f56291eb 1-122
+.dockerignore
+  s_6015974f6f542a::t_52f0b967c9ba40 8-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "dcc476e2eab49e1a310b656b51f7954565877b83",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

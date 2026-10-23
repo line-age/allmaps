@@ -1,0 +1,23 @@
+workers/preview/src/shared/cache.ts
+  s_6015974f6f542a::t_167f74fec90061 33-37,39
+workers/tileserver/src/lib/cache.ts
+  s_6015974f6f542a::t_b9122557a1c13f 39-43,45-49
+workers/tileserver/test/error-tile.test.ts
+  s_6015974f6f542a::t_e0bc0a82abba06 108,113,119,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "70d42c104a6cd30561bca7686b8f134aa11fe100",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "unknown"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

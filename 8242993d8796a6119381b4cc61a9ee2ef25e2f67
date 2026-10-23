@@ -1,0 +1,56 @@
+apis/annotations/package.json
+  s_6015974f6f542a::t_aa1f573e4b3b25 42-43
+workers/tileserver/test/error-tile.test.ts
+  s_6015974f6f542a::t_7fffa3a0c005a4 108,113,119,122
+apps/console/svelte.config.js
+  s_6015974f6f542a::t_54dce3baf020bf 1-2,9
+apps/editor/package.json
+  s_6015974f6f542a::t_54dce3baf020bf 70
+apps/viewer/svelte.config.js
+  s_6015974f6f542a::t_54dce3baf020bf 1-2,14
+apis/rest/src/node.ts
+  s_6015974f6f542a::t_6dcf541e93f12b 1-6
+apps/console/package.json
+  s_6015974f6f542a::t_54dce3baf020bf 23
+packages/api-shared/package.json
+  s_6015974f6f542a::t_54dce3baf020bf 21-22,56
+packages/db/package.json
+  s_6015974f6f542a::t_54dce3baf020bf 16-17
+apis/annotations/src/node.ts
+  s_6015974f6f542a::t_71d1af48893dbc 1-6
+workers/tileserver/src/lib/cache.ts
+  s_6015974f6f542a::t_653b1c10c16f2a 39-43
+  s_6015974f6f542a::t_5736b1fd3484d9 45-49
+packages/db/src/migrate.ts
+  s_6015974f6f542a::t_451b075f2be9fc 1-39
+apps/editor/svelte.config.js
+  s_6015974f6f542a::t_54dce3baf020bf 1-2,11
+packages/api-shared/src/node.ts
+  s_6015974f6f542a::t_ac1cb9de0d14a2 1-37
+workers/preview/src/shared/cache.ts
+  s_6015974f6f542a::t_653b1c10c16f2a 33-37,39
+turbo.json
+  s_6015974f6f542a::t_407e958e4b67f2 13-14
+apis/rest/package.json
+  s_6015974f6f542a::t_aa1f573e4b3b25 43-44
+apps/viewer/package.json
+  s_6015974f6f542a::t_54dce3baf020bf 56
+pnpm-lock.yaml
+  s_6015974f6f542a::t_dd8a6bdbd3bc5b 534-536,713-715,824,840-843,900,1009-1012,1081,1239,1305,1672-1675,1744,1858-1860,3667,3751,14590,14595,15707,15727,15731,15736,15756-15758,15762,21463,21474
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "8242993d8796a6119381b4cc61a9ee2ef25e2f67",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}

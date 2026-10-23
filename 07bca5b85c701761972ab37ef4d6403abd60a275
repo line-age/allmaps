@@ -1,0 +1,25 @@
+pnpm-lock.yaml
+  s_6015974f6f542a::t_4b34b807870d35 534-536,713-715
+  s_6015974f6f542a::t_99c19b526e427a 824,840,900,1009,1081,1239,1305,1672,1744,3667,3751,14590,14595,15707,15727,15731,15736,15756-15758,15762,21463
+  s_6015974f6f542a::t_b0c37115cd2356 21474
+apis/annotations/package.json
+  s_6015974f6f542a::t_24491d2241bd16 42-43
+apis/rest/package.json
+  s_6015974f6f542a::t_f0cb0bf9e6ef82 43-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "07bca5b85c701761972ab37ef4d6403abd60a275",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": null
+    }
+  }
+}
