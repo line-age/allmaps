@@ -1,0 +1,60 @@
+docker/workerd-config.sh
+  s_6015974f6f542a::t_45478db24f1551 18
+  s_6015974f6f542a::t_dad4a3c4a0ed58 30-33
+  s_6015974f6f542a::t_b2f385f6c61b40 1-17,19-29,34-53
+docker/README.md
+  s_6015974f6f542a::t_6d8633fc24bd35 44-46
+  s_6015974f6f542a::t_6ecd6ee358e21f 49,54-67,71-72
+  s_6015974f6f542a::t_a000ab9f4b6081 212-219
+  s_6015974f6f542a::t_26891221755833 1-43
+  s_6015974f6f542a::t_e8a7af6a71532d 47-48,50-53,68-70,73-211
+  s_6015974f6f542a::t_76f8daa67a6c1a 220-280
+docker/caddy/certs/.gitignore
+  s_6015974f6f542a::t_788f625eb84c03 1-2
+.dockerignore
+  s_6015974f6f542a::t_52f0b967c9ba40 8-12
+docker/caddy/Caddyfile
+  s_6015974f6f542a::t_a5d8385ac81f89 1-38
+  s_6015974f6f542a::t_69f9ce8cd83219 39-42
+compose.yaml
+  s_6015974f6f542a::t_9a9948f56291eb 1-110,112,115,120,125
+  s_6015974f6f542a::t_0202f8ea8a0941 111,113-114,116-119,121-124,126-158
+compose.override.yaml
+  s_6015974f6f542a::t_b4a02e8c2b8805 44-45
+  s_6015974f6f542a::t_6ecd6ee358e21f 63-64
+  s_6015974f6f542a::t_73a2a85a279f06 3-8,16,18-22,27,30,35,38,42-43,46,50,55,59,68,93
+  s_6015974f6f542a::t_85b41e68431bab 1-2,9-15,17,23-26,28-29,31-34,36-37,39-41,47-49,51-54,56-58,60-62,65-67,69-92
+  s_6015974f6f542a::t_cefdcd5b8f9bc5 94-96
+  s_6015974f6f542a::t_72270eececa66d 97-117
+Dockerfile
+  s_6015974f6f542a::t_ad8293bc59c06b 61-83
+  s_6015974f6f542a::t_7c0ebe88c9737b 84-86
+  s_6015974f6f542a::t_b0824c39920d3e 1-60
+docker/dev-install.sh
+  s_6015974f6f542a::t_b4a02e8c2b8805 11-13,19-20,22-39,51
+  s_6015974f6f542a::t_fe4eaf1adb55ee 14-18,21
+  s_6015974f6f542a::t_6a34e266e6ed7c 1-10,40-50,52-58
+docker/caddy/proxy.global
+  s_6015974f6f542a::t_84fbf7f112e378 1-3
+docker/dev-run.sh
+  s_6015974f6f542a::t_b57d6722578821 2-4,7-8,14,18
+  s_6015974f6f542a::t_5a106cbd046ade 1,5-6,9-13,15-17,19-21
+docker/caddy-dev/fixtures.caddy
+  s_6015974f6f542a::t_cd3e75aa02e982 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "6bc15ab62291a97ca5f94e2d4382a609d95d2f6e",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": null
+    }
+  }
+}
