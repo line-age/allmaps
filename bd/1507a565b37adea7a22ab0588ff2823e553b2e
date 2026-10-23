@@ -1,0 +1,23 @@
+apis/annotations/package.json
+  s_6015974f6f542a::t_6d2d9dac76dbd9 42-43
+apis/rest/package.json
+  s_6015974f6f542a::t_a6ab79a1435941 43-44
+pnpm-lock.yaml
+  s_6015974f6f542a::t_da6f73477ee303 534-536,713-715,824,840,900,1009,1081,1239,1305,1672,1744,3667,3751,14590,14595,15707,15727,15731,15736,15756-15758,15762,21463,21474
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "bd1507a565b37adea7a22ab0588ff2823e553b2e",
+  "prompts": {},
+  "sessions": {
+    "s_6015974f6f542a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5017932e-ce32-41e8-ac61-94324228b21a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nick Marden <nmarden@avvo.com>"
+    }
+  }
+}
