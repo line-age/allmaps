@@ -1,5 +1,8 @@
 apps/console/src/routes/organizations/[organizationId]/+page.svelte
   s_6015974f6f542a::t_74f99dc411b574 435-437,441-447
+  s_6015974f6f542a::t_ea2f101de0916d 435-436,442-443,447
+  s_6015974f6f542a::t_26ef57a50df8f8 444-446
+  s_6015974f6f542a::t_7ea246884f9d3a 437,441
 ---
 {
   "schema_version": "authorship/3.0.0",
