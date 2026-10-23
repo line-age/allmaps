@@ -1,5 +1,6 @@
 apps/editor/src/lib/components/SelectTransformationWrapper.svelte
   s_6015974f6f542a::t_36b08e8f4d69ae 16-24,27,30,33-36
+  s_6015974f6f542a::t_5fb1d37c480e48 16-24,27,30,33-36
 ---
 {
   "schema_version": "authorship/3.0.0",
