@@ -1,7 +1,9 @@
 packages/db/src/auth.ts
   s_6015974f6f542a::t_233eb5705d1b56 19-24,49-50,52,81
+  s_6015974f6f542a::t_10ec20ec221de9 19-24,49-50,52,81
 packages/env/src/fragments/auth.ts
   s_6015974f6f542a::t_0a3489365cc669 8-11
+  s_6015974f6f542a::t_134098909bf2df 8-11
 ---
 {
   "schema_version": "authorship/3.0.0",
